@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Landing Page</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            background:#f4f4f4;
+            margin:0;
+        }
+
+        .banner{
+            width:100%;
+            max-height:300px;
+            object-fit:cover;
+        }
+
+        .profile{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            margin-top:-75px;
+            border:5px solid white;
+        }
+
+        .container{
+            padding:20px;
+        }
+
+        .btn{
+            display:block;
+            width:250px;
+            margin:15px auto;
+            padding:15px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:18px;
+        }
+
+        .btn:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<img src="banner.jpg" class="banner">
+
+<div class="container">
+
+    <img src="profile.jpg" class="profile">
+
+    <h1>Paul's Landing Page</h1>
+
+    <p>Welcome to my personal page.</p>
+
+    <a href="https://www.google.com" class="btn">
+        Visit Google
+    </a>
+
+    <a href="https://www.youtube.com" class="btn">
+        Visit YouTube
+    </a>
+
+    <a href="https://www.instagram.com" class="btn">
+        Follow Me
+    </a>
+
+</div>
+
+</body>
+</html>
